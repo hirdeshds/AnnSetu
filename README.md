@@ -1,5 +1,6 @@
 # 🌾 AnnSetu
-![image](https://github.com/user-attachments/assets/7b5818c6-6ee3-4a0f-a370-7ba650f6c92a)
+<img src="image.png" alt="AnnSetu UI" width=""/>
+
 
 AnnSetu is a platform designed to **connect farmers directly with buyers**, eliminating intermediaries and ensuring **fair, transparent, and profitable transactions** in the agricultural sector.
 
