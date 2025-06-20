@@ -1,0 +1,64 @@
+body {
+    margin: 0; font-family: 'Inter', Arial, Helvetica, sans-serif; background: #f6f8fb; color: #2d5343;
+  }
+  a { text-decoration: none; color: inherit; }
+  .header { background: #fff; border-bottom: 1px solid #c1cfd4; position: sticky; top: 0; z-index: 20; }
+  .container { max-width: 1200px; margin: 0 auto; }
+  .nav { display: flex; gap: 2rem; font-weight: 500; }
+  .logo-bar { display: flex; align-items: center; gap: 0.5rem; }
+  .logo-bar img { height: 40px; width: 40px; border-radius: 50%; }
+  .btn { border-radius: 0.375rem; font-weight: 600; padding: 0.75rem 1.5rem; font-size: 1rem; border: none; cursor: pointer; }
+  .btn-green { background: #2d5343; color: #fff; }
+  .btn-green:hover { background: #74ac96; }
+  .btn-outline { background: #fff; color: #2d5343; border: 2px solid #2d5343; }
+  .btn-outline:hover { background: #e1efea; }
+  .auth-bar { display: flex; gap: 0.75rem; }
+  .hero { display: flex; align-items: center; justify-content: space-between; gap: 2rem; padding: 4rem 1rem; background: #f6f8fb; border-bottom: 1px solid #c1cfd4; }
+  .hero-text { flex: 1; }
+  .hero-head { font-size: 3rem; font-weight: 900; margin-bottom: 1rem; line-height: 1.1; }
+  .hero-desc { color: #96a4aa; font-size: 1.25rem; margin-bottom: 1rem; }
+  .hero-img { flex: 1; display: flex; justify-content: center; }
+  .hero-img img { width: 100%; max-width: 420px; border-radius: 1rem; box-shadow: 0 10px 32px #0001; aspect-ratio: 16/9; }
+  @media (max-width: 900px) {
+    .hero { flex-direction: column; }
+  }
+  .section { padding: 4rem 1rem; border-bottom: 1px solid #c1cfd4; background: #f6f8fb; }
+  .how-header, .benefits-header { text-align: center; margin-bottom: 2rem; }
+  .how-header h2, .benefits-header h2 { font-size: 2.5rem; font-weight: 800; margin-bottom: 0.5rem; }
+  .how-cards { display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; }
+  .how-card { flex: 1 1 220px; max-width: 320px; display: flex; flex-direction: column; align-items: center; gap: 0.5rem; }
+  .how-card img { width: 48px; height: 48px; margin-bottom: 0.5rem; }
+  .how-card h3 { font-weight: 700; font-size: 1.1rem; color: #2d5343; margin-bottom: 0.2rem; }
+  .how-card p { color: #96a4aa; font-size: 0.97rem; }
+  .benefits-section { background: #eef1f5; }
+  .benefits-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; }
+  .benefit-card { background: #fff; border-radius: 1rem; padding: 2rem 1.5rem; text-align: center; box-shadow: 0 2px 12px #0001; min-height: 170px; }
+  .benefit-card img { width: 42px; height: 42px; margin-bottom: 1rem; }
+  .benefit-card h3 { font-weight: 700; font-size: 1.05rem;margin-bottom:0.4rem;}
+  .benefit-card p {font-size:0.97rem;color:#96a4aa;}
+  .cta-banner { background: #2d5343; color: #fff; padding: 3rem 1rem; text-align: center; }
+  .cta-banner h2 { font-size: 2rem; font-weight: bold; margin-bottom: 0.6rem; }
+  .cta-bar { display: flex; gap: 1rem; justify-content: center; margin-top: 1rem;}
+  .cta-white-btn { background: #fff; color: #2d5343; border-radius: 0.375rem; padding: 0.9rem 2rem; font-weight: 600;border:none; }
+  .cta-white-btn:hover { background: #e1efea; }
+  .cta-outline-btn { background: none; border: 2px solid #fff; color: #fff; border-radius: 0.375rem; padding: 0.9rem 2rem; font-weight: 600;}
+  .cta-outline-btn:hover { background:#74ac96; color: #2d5343;}
+  .footer { background: #eef1f5; border-top: 1px solid #c1cfd4; padding: 2.5rem 1rem 1rem;}
+  .footer-row { display: flex; justify-content: space-between; gap: 2rem; flex-wrap: wrap;}
+  .footer-col{min-width:170px;flex:1;}
+  .footer-logo-bar img { height: 32px; width: 32px; border-radius: 50%; vertical-align: middle;}
+  .footer-quicklinks{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr)); gap:2rem;}
+  .footer-section h4{font-weight:bold;color:#2d5343;margin-bottom:0.5rem; font-size:1.06rem;}
+  .footer-section ul{list-style:none;padding-left:0;}
+  .footer-section li{margin-bottom:0.2rem;}
+  .footer-section a{color:#96a4aa;font-size:0.97rem;}
+  .footer-section a:hover{color:#2d5343; text-decoration: underline;}
+  .footer-bottom { border-top: 1px solid #c1cfd4; text-align: center; color: #c1cfd4; padding-top: 0.8rem; margin-top: 2.5rem; font-size: 0.95rem; display: flex;flex-wrap:wrap;justify-content:space-between; }
+  .footer-bottom .links { display: flex; gap: 1.8rem; }
+  @media (max-width: 700px) {
+    .how-cards, .footer-row { flex-direction: column; gap:1.5rem; }
+    .footer-quicklinks{grid-template-columns:1fr;}
+    .cta-bar { flex-direction: column; gap: 1rem;}
+    .container { padding: 0 1rem; }
+  }
+  
