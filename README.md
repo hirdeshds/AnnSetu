@@ -1,4 +1,4 @@
-# 🌾 AnnSetu
+# AnnSetu
 <img src="image.png" alt="AnnSetu UI" width=""/>
 
 
